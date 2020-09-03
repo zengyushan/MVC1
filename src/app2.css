@@ -1,0 +1,15 @@
+#app2{
+    width: 48vw;
+    height: 50vh;
+    border: 1px solid red;
+}
+#app2 .bar ul{
+    display: flex;
+}
+#app2 .bar li{
+    border: 1px solid #323232;
+    flex: 1;
+}
+#app2 .bar li.active{
+    color: red;
+}
